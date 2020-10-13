@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+<!-- 活动页面注册 -->
         <activity android:name=".MainActivity">
+            <!-- 设置为启动界面 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
