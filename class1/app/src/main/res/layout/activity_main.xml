@@ -1,11 +1,14 @@
+<!-- 布局文件 -->
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 约束布局，最常用的布局 -->
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.acer.class1.MainActivity">
-
+    
+<!-- 文本控件 -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -14,13 +17,15 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="314dp" />
-
+<!-- 线性布局 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints"></LinearLayout>
+        tools:ignore="MissingConstraints">
+<!--android:orientation="vertical"：垂直排列，默认；若设置为"horizontal"则为水平排列-->
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
