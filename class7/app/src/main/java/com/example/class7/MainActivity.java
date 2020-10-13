@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);//1
                 if(cruntprogress<100){
                     cruntprogress+=10;
-                    Log.d("current",cruntprogress+"");
+                    Log.d("current",cruntprogress+"");//参数二为字符串类型，所以加上双引号
                     progressBar.setProgress(cruntprogress);
 
                 }else{
