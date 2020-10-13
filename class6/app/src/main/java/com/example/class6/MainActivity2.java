@@ -33,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
                 User2 i=new User2(name,pass);
 
                 if((name!=null && !(name.equals("")) )&&( pass!=null && !(pass.equals("")) )){
-                    Intent intent=new Intent(MainActivity2.this,MainActivity3.class);
+                    Intent intent=new Intent(MainActivity2.this,MainActivity3.class);//跳转到下一界面
 
                     // intent.putExtra("username2",name);
                     // intent.putExtra("password2",pass);

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citys">
+        <item>zhuhai</item>
+        <item>zhengzhou</item>
+        <item>zhongshang</item>
+        <item>zhebo</item>
+        <item>zhanjiang</item>
+        <item>zhumadian</item>
+    </string-array>
+    <string-array name="provice">
+        <item>河南省</item>
+        <item>广东省</item>
+        <item>湖北省</item>
+        <item>海南省</item>
+    </string-array>
+    <string-array name="hcitys">
+        <item>郑州市</item>
+        <item>周口店</item>
+        <item>洛阳市</item>
+        <item>南阳市</item>
+    </string-array>
+    <string-array name="hbitys">
+        <item>武汉市</item>
+        <item>襄樊市</item>
+        <item>黄石市</item>
+        <item>随州市</item>
+    </string-array>
+    <string-array name="gditys">
+        <item>广州市</item>
+        <item>珠海市</item>
+        <item>深圳市</item>
+        <item>湛江市</item>
+    </string-array>
+    <string-array name="hnitys">
+        <item>海口市</item>
+        <item>三亚市</item>
+        <item>儋州市</item>
+        <item>文昌市</item>
+    </string-array>
+</resources>
