@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
                 }else{
                     progressBar.setVisibility(View.GONE);
-                    //设为不可见，或INVISIBLE(但占用空间，只是看不见)
+                    //GONE:不可见，且不占用空间
+                    //INVISIBLE：隐藏（占用空间，只是看不见）
                     //VISIBLE:可见
                 }
             }
