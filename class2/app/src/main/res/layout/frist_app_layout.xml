@@ -13,7 +13,9 @@
         android:layout_marginTop="20dp"
         android:layout_weight="5"
         android:text="T1" />
-<!-- "wrap_content"：根据自身内容确认长度；"match_parent"：根据父控件确认长度-->
+<!-- "wrap_content"：根据自身内容确认长度；
+	"match_parent"：根据父控件确认长度；
+	android:layout_weight：权重-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
