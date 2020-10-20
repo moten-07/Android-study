@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="booknames">
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>Python面向对象程序设计</item>
+        <item>C++面向对象程序设计</item>
+        <item>Android移动应用开发</item>
+    </string-array>
+    <string-array name="appName">
+        <item>斗地主</item>
+        <item>京东</item>
+        <item>QQ</item>
+        <item>天猫</item>
+        <item>UC</item>
+        <item>微信</item>
+        <item>新浪</item>
+    </string-array>
+
+</resources>
