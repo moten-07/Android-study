@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         recyclerView=findViewById(R.id.Recy1);
         intiData();
+
         //创建布局管理器对象
         //LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this);
         //linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);//改成水平显示
