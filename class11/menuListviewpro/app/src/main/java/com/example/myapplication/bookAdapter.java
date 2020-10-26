@@ -14,7 +14,7 @@ import java.util.List;
 public class bookAdapter extends BaseAdapter {
     Context context;//上下文变量
     List<book> list=new ArrayList<book>();
-    class ViewHoder{//优化2，封装，减少重复绑定
+    class ViewHoder{//优化2，封装，减少重复绑定  回收复用
         ImageView imageView;
         TextView textView;
     }
