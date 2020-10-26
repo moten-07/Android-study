@@ -3,6 +3,7 @@ package com.example.class11;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,15 +13,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
-    List<String> list;
+    List<book> list;
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView textView;
+        ImageView imageView;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textView=itemView.findViewById(R.id.text1);
+            imageView=itemView.findViewById(R.id.imag1);
         }
     }
-    public MyAdapter(List <String> list){
+    public MyAdapter(List <book> list){
         this.list=list;
     }
 
@@ -36,6 +39,12 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
                 Toast.makeText(view.getContext(),viewHolder.textView.getText().toString(),Toast.LENGTH_SHORT).show();
             }
         });
+        viewHolder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(view.getContext(),viewHolder.imageView.getBackground().toString(),Toast.LENGTH_SHORT).show();
+;            }
+        });
         return viewHolder;
     }
 
@@ -44,8 +53,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
         //交互
         //1、完成数据的绑定
         //2、实现对数据项控件的点击交互
-        String item=list.get(position);
-        holder.textView.setText(item);
+        book item=list.get(position);
+        holder.textView.setText(item.getBookname());
+        holder.imageView.setBackgroundResource(item.getBookimg());
        /* holder.textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

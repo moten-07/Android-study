@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="booknames">
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>数据库基础</item>
+        <item>网页设计基础</item>
+        <item>综合项目</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计Java面向对象程序设计Java面向对象程序设计</item>
+        <item>数据库基础</item>
+        <item>网页设计基础</item>
+        <item>综合项目综合项目</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>数据库基础</item>
+        <item>网页设计基础</item>
+        <item>综合项目综合项目综合项目</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>数据库基础</item>
+        <item>网页设计基础</item>
+        <item>综合项目综合项目综合项目综合项目</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>数据库基础</item>
+        <item>网页设计基础</item>
+        <item>综合项目</item>
+        <item>Android移动应用开发</item>
+        <item>Java面向对象程序设计</item>
+        <item>数据库基础</item>
+        <item>网页设计基础</item>
+        <item>综合项目</item>
+    </string-array>
+</resources>
