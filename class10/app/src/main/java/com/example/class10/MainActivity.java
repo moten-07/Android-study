@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         //创建选项菜单
         menu.add(0,0,0,"菜单项一");
-        getMenuInflater().inflate(R.menu.menuoption,menu);//引用XML文件（‘睿智’编辑器，这也能乱标红）
+        getMenuInflater().inflate(R.menu.menuoption,menu);//引用XML文件（‘睿智’编辑器，这也能乱标红），别管这句，上课时编辑器自己的问题
         //菜单项组的ID（保证唯一就行）、在当前组中菜单项的、排序方式，0代表默认、标题（或者引用XML文件对应的整型）
         //menu.add(0,1,0,"菜单项二");
         //menu.add(0,2,0,"菜单项三");
