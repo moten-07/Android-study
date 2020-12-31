@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.5" />
+    
+    <TextView
+        android:id="@+id/uText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintRight_toLeftOf="@id/title"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:text="账号："
+        />
+
+    <TextView
+        android:id="@+id/pText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/uText"
+        app:layout_constraintRight_toRightOf="@id/uText"
+        android:text="密码："
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/p2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pText"
+        app:layout_constraintRight_toRightOf="@id/pText"
+        android:text="确认密码："
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:text=""
+        android:hint="请输入用户名"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/uText"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:layout_marginTop="25dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:layout_marginTop="25dp"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/buttonSU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="注册"
+        app:layout_constraintEnd_toEndOf="@+id/p2Text"
+        app:layout_constraintStart_toStartOf="@+id/p2Text"
+        app:layout_constraintTop_toBottomOf="@+id/p2Text" />
+
+    <Button
+        android:id="@+id/buttonNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="取消"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSU"
+        app:layout_constraintStart_toEndOf="@+id/buttonSU"
+        app:layout_constraintTop_toTopOf="@+id/buttonSU" />
+
+    <TextView
+        android:id="@+id/textViewout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:textColor="#f00"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

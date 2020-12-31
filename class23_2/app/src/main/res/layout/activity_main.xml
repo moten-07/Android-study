@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cz_bj"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号码："
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@id/text"
+        app:layout_constraintLeft_toRightOf="@id/text"
+        app:layout_constraintTop_toTopOf="@id/text" />
+
+    <TextView
+        android:id="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昵称："
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/text"
+        app:layout_constraintTop_toBottomOf="@id/text" />
+    <EditText
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/phonenumber"
+        app:layout_constraintLeft_toLeftOf="@id/phonenumber"
+        app:layout_constraintRight_toRightOf="@id/phonenumber"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_shape"
+        android:text="注册新用户"
+        android:textColor="#fff"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="@id/text2"
+        app:layout_constraintRight_toRightOf="@id/nametext"
+        app:layout_constraintTop_toBottomOf="@id/nametext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

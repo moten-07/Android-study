@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/uText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:text="账号："
+        app:layout_constraintRight_toLeftOf="@id/title2"
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
+
+    <TextView
+        android:id="@+id/pText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="密码："
+        app:layout_constraintRight_toRightOf="@id/uText2"
+        app:layout_constraintTop_toBottomOf="@+id/uText2" />
+
+    <AutoCompleteTextView
+        android:id="@+id/username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/uText2"
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
+
+    <EditText
+        android:id="@+id/password3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/username2"
+        app:layout_constraintTop_toBottomOf="@+id/username2" />
+
+    <Button
+        android:id="@+id/buttonSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="登录"
+        app:layout_constraintEnd_toEndOf="@+id/pText2"
+        app:layout_constraintStart_toStartOf="@+id/pText2"
+        app:layout_constraintTop_toBottomOf="@+id/pText2" />
+
+    <Button
+        android:id="@+id/buttonNO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="取消"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSI"
+        app:layout_constraintStart_toEndOf="@+id/buttonSI"
+        app:layout_constraintTop_toTopOf="@id/buttonSI" />
+</androidx.constraintlayout.widget.ConstraintLayout>

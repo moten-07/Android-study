@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="goodsName">
+        <item>蛋糕</item>
+        <item>礼物</item>
+        <item>邮票</item>
+        <item>爱心</item>
+        <item>鼠标</item>
+        <item>音乐CD</item>
+    </string-array>
+    <string-array name="buttomText">
+        <item>蛋糕：好好次</item>
+        <item>礼物：礼轻情</item>
+        <item>邮票：世界那</item>
+        <item>爱心：世界和</item>
+        <item>鼠标：反应敏</item>
+        <item>音乐CD：给你</item>
+    </string-array>
+</resources>
