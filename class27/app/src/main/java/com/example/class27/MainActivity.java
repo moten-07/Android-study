@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     List<weather> list =new ArrayList<>();
 //    MyAdapter adapter;
-    String url="http://10.0.2.2/weather.json";
+//    String url="http://10.0.2.2/weather.json";
+    String url="http://14.119.122.66/weather.json";   //真机调试，本机地址
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
